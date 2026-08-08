@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "users": {
+      "title": "users",
+      "description": "User profiles with username, XP, level, rank, and study progress",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "username": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "xp": { "type": "number" },
+        "level": { "type": "number" },
+        "rank": { "type": "string" },
+        "streakCount": { "type": "number" },
+        "avatarUrl": { "type": "string" },
+        "lastActiveDate": { "type": "string" },
+        "stickers": { "type": "array" },
+        "todayPlan": { "type": "array" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid", "username", "email"]
+    },
+    "user_pdfs": {
+      "title": "user_pdfs",
+      "description": "PDF documents uploaded to Firebase Storage and summarized",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "fileName": { "type": "string" },
+        "downloadUrl": { "type": "string" },
+        "fileSize": { "type": "string" },
+        "keyPoints": { "type": "array" },
+        "flashcards": { "type": "array" },
+        "uploadedAt": { "type": "string" }
+      },
+      "required": ["userId", "fileName"]
+    }
+  }
+}

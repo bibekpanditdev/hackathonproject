@@ -1,0 +1,7 @@
+# EduMind AI Search Engine Crawler Directives
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://edumind-ai.web.app/sitemap.xml

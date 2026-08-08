@@ -1,0 +1,6 @@
+{
+  "name": "EduMind AI",
+  "description": "A colorful, animated, student-first learning platform featuring a Sequential AI Tutor, Diagnose-Repair-Recall loop, automated assessments, PDF summarizer, career guidance, and sketchbook gamification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
